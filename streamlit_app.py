@@ -1,6 +1,9 @@
 import streamlit
 
-streamlit.title('DIY')
-streamlit.text('Creafting area')
-streamlit.text('Drawing area')
-# streamlit.subtitle('hi') tried by my self
+streamlit.title('My New Helathy Menu')
+
+streamlit.header('Breakfast Menu')
+streamlit.text('🍪🥟Omega 3 & Blueberry Oatmeal')
+streamlit.text('🍹🍶Kale, Spinach & Rocket Smoothie')
+streamlit.text('🥚🍗Hard-Boiled Free-Range Egg')
+
