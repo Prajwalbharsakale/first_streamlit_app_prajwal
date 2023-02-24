@@ -28,7 +28,7 @@ streamlit.header("Fruityvice Fruit Advice!")
 
 #NEW SECTION TO DISPLAY API FRUITVICE RESPONCE
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "Kiwi")
 
 #streamlit.text(fruityvice_response.json()) # just write the data to the screen
 
