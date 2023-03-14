@@ -34,10 +34,11 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "Kiwi")
 
 #streamlit.text(fruityvice_response.json()) # just write the data to the screen
-import snowflake.connector
+
 
 # converting semi structure data into flat table but in code output is stored in variable
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # by using .dataframe function actual data is printed on screen
 streamlit.dataframe(fruityvice_normalized)
 
+import snowflake.connector
