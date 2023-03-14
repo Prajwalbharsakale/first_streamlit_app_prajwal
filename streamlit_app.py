@@ -44,6 +44,8 @@ try:
 
  except URLError as e:
     streamlit.error()
+ 
+streamlit.close()
 
 streamlit.header("The fruit load list contains:")
 #snwoflake-related-quetions
