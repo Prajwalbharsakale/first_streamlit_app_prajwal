@@ -43,9 +43,9 @@ try:
       streamlit.dataframe(back_from_function)
 
 except URLError as e:
-   streamlit.error()
+   streamlit.error("errorrr")
  
-streamlit.close()
+#streamlit.close()
 
 streamlit.header("The fruit load list contains:")
 #snwoflake-related-quetions
